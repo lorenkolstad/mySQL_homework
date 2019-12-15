@@ -73,7 +73,7 @@ let promptCustomer = function(res){
             }
         }
 
-        if(i == res.lenght && correct == false){
+        if(i == res.length && correct == false){
             console.log("Not a valid selection.");
             promptCustomer(res);
         }
